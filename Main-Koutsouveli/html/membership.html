@@ -1,0 +1,75 @@
+<!--Koutsouveli Anthi-->
+<header>
+  <link rel="stylesheet" href="../css/navbar.css">
+  <div class="container">
+      <h1>The Ultimate Guide for Tech Students</h1>
+      <nav id="nav-1">
+          <a class="link-1" href="/index.html">Home</a>
+          <a class="link-1" href="/Nutrition_Website_Sofia_Loukisa_CSY23106/nutrition.html">Nutrition Page</a>
+          <a class="link-1" href="/teamwebsiteSocial(Alex)/website.html">Social Page</a>
+          <a class="link-1" href="/Health page/Main_Health.html">Health Page</a>
+          <a class="link-1" href="../html/log-in.html">Log-in</a>
+          <a class="link-1" href="../html/about-us.html">About Us</a>
+      </nav>
+  </div>
+</header>
+
+<link rel="stylesheet" href="../css/membership.css">
+<div class="wrapper">
+   <header>MEMBERSHIP PAGE</header>
+   <div class="pricing-table">
+     <div class="pricing-box">
+       <h2>Free Membership</h2>
+       <span class="price">Free Lifetime</span>
+       <p class="description">Access to our website. However you will miss out on some yummy recipes:P </p>
+       <span class="pricing-table-divider"></span>
+       <a class="btn" href="#" id="freeSignUp" onclick="handleSignUpClick()"><b>Sign Up</b></a>
+       <span class="pricing-table-divider"></span>
+       <ul>
+         <li> Basic Access to our website</li>
+         <li> LATE to our newer releases </li>
+       </ul>
+     </div>
+     <div class="pricing-box">
+       <h2>HAPPY 2024 DISCOUNT</h2>
+       <span class="price">2.99€/month</span>
+       <p class="description">Do NOT miss out on this discount. Total product worth 50 euros, ONLY FOR 35,90€ annualy</p>
+       <span class="pricing-table-divider"></span>
+       <a class="btn"  onclick="handleSignUpClick()"><b>SIGN UP NOW OFFER ENDS IN A FEW DAYS</b></a>
+       <span class="pricing-table-divider"></span>
+       <ul>
+         <li>ALL ACCESS to our website</li>
+         <li>FIRST to know about what we are planning</li>
+         <li>SIGN UP NOW FOR A ONCE OF A LIFETIME CHANCE</li>
+       </ul>
+     </div>
+     <div class="pricing-box pricing-table-best">
+       <h2>Exclusive Membership</h2>
+       <span class="price">50€/year</span>
+       <p class="description">Best For IT Students (hehe)</p>
+       <span class="pricing-table-divider"></span>
+       <a class="btn" href="#"  onclick="handleSignUpClick()"><b>Sign Up</b></a>
+       <span class="pricing-table-divider"></span>
+       <ul>
+         <li>All year access to our releases</li>
+         <li>Includes one free session with a nutritionist and therapist</li>
+         <li>Unbelievable student network opportunities ONLY HERE</li>
+         <li>Become the coolest student in your class</li>
+       </ul>
+     </div>
+   </div>
+ </div>
+
+
+<script>
+   
+   function handleSignUpClick() {
+    
+    var handleSignUpClicked = window.confirm("Currently Unavaible. Please re-visit later");
+
+    
+    if (handleSignUpClicked) {
+        window.location.href = "/index.html";
+    }
+}
+</script>

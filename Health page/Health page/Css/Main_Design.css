@@ -1,0 +1,137 @@
+/* Main page Design*/
+/* Eleni Petraki */
+/*Design of the title,(should put h2 instead of h1)*/
+.title h2 {
+  text-align:center ; 
+  font-size:50px ;
+  text-transform:uppercase;
+  color:#222;
+  letter-spacing:1px;
+  font-family:"Playfair Display", serif; 
+  font-weight:400;
+}
+.title h2 span {
+    margin-top: 5px;
+    font-size:15px;
+    color:#444; 
+    word-spacing:1px; 
+    font-weight:normal; 
+    letter-spacing:2px;
+    text-transform: uppercase; 
+    font-family:"Raleway", sans-serif; 
+    font-weight:500;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.title h2 span::after,
+.title h2 span::before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 5px;
+  background-color:#f8f8f8;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #F3EDC8;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sato', sans-serif;
+    background-color: #F8FAE5;
+    padding: 20px;
+}
+
+
+.highlight {
+    font-style: small-caps;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #e5ecf1;
+    text-shadow: 0 0 7px #5a67c9, 0 0 30px #a1abf2;
+}
+
+/*We write "content-section" because we want only this part of the page to have the specific style*/
+.content-section h1 {
+    color: #514f4f;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    position: relative;
+}
+.content-section h1::before {
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   height: 5px;
+   width: 55px;
+   background-color: #111;
+} 
+.content-section h1::after{
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: 2px;
+   height: 1px;
+   width: 95%;
+   max-width: 255px;
+   background-color: #333;
+}   
+
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+
+.navbar{
+    background-color: #333;
+    position:fixed;
+    top:0;
+    width:100%;
+    transition:top 0.3s;
+  }
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+/* [#] for ID and [a] for the anchor,links  we want to style*/
+#Additional_Resources a {
+  color: #ff0000; text-decoration: none;
+}
+
+
+#Additional_Resources a:visited {
+  color: #B19470;
+  text-decoration: none;
+}
+#Additional_Resources a:hover {
+  text-decoration: underline;
+}

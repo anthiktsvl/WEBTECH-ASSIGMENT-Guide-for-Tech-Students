@@ -1,0 +1,55 @@
+<!--Koutsouveli Anthi-->
+<link rel="stylesheet" href="../css/styles.css">
+
+<header>
+   <div class="container">
+       <h1>The Ultimate Guide for Tech Students</h1>
+       <nav id="nav-1">
+           <a class="link-1" href="/index.html">Home</a>
+           <a class="link-1" href="/Nutrition_Website_Sofia_Loukisa_CSY23106/nutrition.html">Nutrition Page</a>
+           <a class="link-1" href="/teamwebsiteSocial(Alex)/website.html">Social Page</a>
+           <a class="link-1" href="/Health page/Main_Health.html">Health Page</a>
+           <a class="link-1" href="../html/log-in.html">Log-in</a>
+           <a class="link-1" href="../html/about-us.html">About Us</a>
+       </nav>
+   </div>
+</header>
+<section class="faq">
+  
+   <h3 class="mt-4">FAQs</h3>
+ 
+   <button class="question">Can i remove my subscription?</button>
+   <div class="answer">
+     <p>Yes, the subscription will be valid until the due date!</p>
+   </div>
+ 
+   <button class="question">Is there a way to sign up for a newsletter?</button>
+   <div class="answer">
+     <p>Yes, please send us an email at info@tugts.com and we will take care of it!</p>
+   </div>
+ 
+   <button class="question"> Can i upload this website on my social account?</button>
+   <div class="answer">
+     <p>Of course! Feel free to share our website wherever you feel like! We love students who truly appreciate our help!</p>
+   </div>
+   
+
+ 
+</section>
+
+<script>
+   var acc = document.getElementsByClassName("question");
+   var i;
+
+   for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+         this.classList.toggle("active-question");
+         var panel = this.nextElementSibling;
+         if (panel.style.maxHeight){
+         panel.style.maxHeight = null;
+         } else {
+         panel.style.maxHeight = panel.scrollHeight + "px";
+         } 
+      });
+   }
+</script>

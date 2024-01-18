@@ -1,0 +1,50 @@
+<!--Koutsouveli Anthi-->
+<link rel="stylesheet" href="../css/log-in.css">
+
+<div class="wrapper">
+   <div class="login_box">
+       <div class="login-header">
+           <span>Login</span>
+       </div>
+       <form id="loginForm" action="#" onsubmit="login(); return false;">
+           <div class="input_box">
+               <input type="text" id="user" class="input-field" required>
+               <label for="user" class="label">Username</label>
+               <i class="bx bx-user icon"></i>
+           </div>
+           <div class="input_box">
+               <input ty pe="password" id="pass" class="input-field" required>
+               <label for="pass" class="label">Password</label>
+               <i class="bx bx-lock-alt icon"></i>
+           </div>
+           <div class="remember-forgot">
+               <div class="rembember-me">
+                   <input type="checkbox" id="remember">
+                   <label for="remember">Remember me</label>
+               </div>
+
+               <div class="forgot">
+                   <a href="#">Forget password?</a>
+               </div>
+           </div>
+           <div class="input_box">
+               <input type="submit" class="input-submit" value="Login">
+           </div>
+       </form>
+       <div class="register">
+           <span>Don't have an account?<a href="#">Register</a></span>
+       </div>
+   </div>
+</div>
+
+<script>
+   function login() {
+    
+    var loggedIn = window.confirm("Successful login! Click OK to go back to our homepage:)");
+
+    
+    if (loggedIn) {
+        window.location.href = "/index.html";
+    }
+}
+</script>

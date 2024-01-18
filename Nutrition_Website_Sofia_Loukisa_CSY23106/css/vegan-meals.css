@@ -1,0 +1,245 @@
+/*SOFIA LOUKISA CSY23106*/
+#d {
+    background-color: gray;
+    height: 160px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+
+img {
+    margin-top: -60px;
+    width: 360px ;
+    margin-left: 200px;
+}
+
+
+
+#description {
+    display: flex;
+    flex-direction: row;
+}
+
+.rate {
+
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.checked {
+    color: orange;
+}
+
+#ingredients {
+    margin-left: 200px;
+    width: 200%;
+    margin-top: -450px;
+}
+ 
+.list {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 2.0;
+    border: 3px solid #c6c6bc;
+    padding-left: 80px;
+    width: 280px;
+    background-color: #9d9c93;
+    margin-top: -80px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+
+ul.list {
+    list-style-type: square;
+  }
+
+
+#method {
+
+    background-color:transparent;
+    margin-left: 80px;
+    margin-bottom: 650px;
+    margin-right: 200px;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#recipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+#title-slides{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border: 5px solid #9d9c93;
+    padding: 15px;
+    border-left: transparent;
+    border-right: transparent;
+    margin-top: -400px;
+}
+
+#sl{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider{
+    margin: 0 auto;
+    width: 1200px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.slides{
+	width: 400%;
+	height: 400px;
+	display: flex;
+}
+
+.slides input {
+	display: none;
+}
+
+.slide{
+	width: 25%;
+	position: relative;
+	transition: 5s;
+}
+
+.slide img {
+	width: 800px;
+    cursor: pointer;
+}
+
+.slide img:active{
+    opacity: 0.7;
+}
+
+.manual-navegacao{
+	position: absolute;
+	width: 1200px;
+	margin-top: -80px;
+	display: flex;
+	justify-content: center;
+}
+
+.manual-btn{
+	border: 2px solid #fff;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+	margin-right: 30px;
+}
+
+.manual-btn:hover{
+	background-color: #fff;
+}
+
+#radio1:checked ~ .first{
+	margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+	margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+	margin-left: -50%;
+}
+
+.navegacao-auto div{
+	border: 2px solid #20acff;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.navegacao-auto{
+	position: absolute;
+	width: 1200px;
+	margin-top: 320px;
+	display: flex;
+	justify-content: center;
+}
+
+.navegacao-auto div:not(:last-child){
+	margin-right: 30px;
+}
+
+#radio1:checked ~ .navegacao-auto .auto-btn1{
+	background-color: #fff;
+}
+
+#radio2:checked ~ .navegacao-auto .auto-btn2{
+	background-color: #fff;
+}
+
+#radio3:checked ~ .navegacao-auto .auto-btn3{
+	background-color: #fff;
+}
+  

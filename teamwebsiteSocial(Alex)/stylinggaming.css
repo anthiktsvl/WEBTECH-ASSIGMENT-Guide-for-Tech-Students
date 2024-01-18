@@ -1,0 +1,97 @@
+/* Alexandra Papafragkou */
+html {
+    background: #e0f7fa;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14pt;
+}
+
+body {
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+body,
+#menu {
+    background: #dddddd;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.4);
+}
+
+h2 a,
+h2 a:visited,
+h3 a,
+h3 a:visited {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 1em;
+}
+h2 {
+    margin: 1.5em 0.4em;
+    font-size: 1.5em;
+}
+h3 {
+    margin-left: -1em;
+}
+
+a,
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+span.warning {
+    color: red;
+    font-weight: bold;
+    font-size: 12pt;
+}
+.strike {
+    text-decoration: line-through;
+}
+
+section {
+    position: relative;
+    min-height: 200px;
+    padding: 0 0 40px;
+    padding-right: 220px;
+    padding-left: 1.6em;
+    margin: 0 0 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+section.disabled {
+    opacity: 0.25;
+    transition: opacity 200ms;
+}
+section.disabled:hover {
+    opacity: 1;
+}
+
+section > img,
+section > svg {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    min-width: 40px;
+    min-height: 25px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background: saddlebrown;
+    padding: 5px;
+}
+
+.caption {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-top: -1.5em;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}

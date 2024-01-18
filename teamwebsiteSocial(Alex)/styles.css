@@ -1,0 +1,171 @@
+/* Alexandra Papafragkou */
+/*This is the styling for the main website*/
+.mainbody{
+    width: 100%;
+    background-color: lightgrey;
+    /*align-items: center;*/
+    line-height: 1.5em;
+    font-size: 1em;
+    width:100%;
+    padding:0;
+}
+/*This is the  main body of the main webpage and the other 
+webpages so it is called, main body. It includes the color
+and the width of the webpage*/
+
+
+.guidetitle{
+    padding-bottom: 5%;
+    padding-top: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*guidetitle is basically the main webpages big letters.
+It is the part where it says The ultimate guide to tech students.
+It is called the guide title because it will only be used 
+for that.*/
+
+.paragraphmain{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 5%;
+}
+
+/*This right here handles all the main paragraphs on the 
+webpages and the styling for them is the same*/
+
+
+
+.texttwo {
+    color: darkblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5%;
+    font-size:  23px;
+}
+
+
+.containerimg{
+    /*This is the container that
+    has all the images, I kept this in
+    case I needed it, I did not but kept 
+    it as a backup safety net afterwards.*/
+
+}
+
+/*containerimg is basically the container of all the images
+and texts underneath the main paragraph*/
+
+.imagegp{
+    /*padding-left: 3%;
+    float: left;*/
+    display: flex;
+}
+/*Here we have the individual images in the imagegp which means
+image group chat*/
+
+
+/*This is where the styling for the main website ends*/
+
+
+/*Moving on to the social event webpage from
+here onward*/
+
+.bodysocialevent{
+    color: cadetblue;
+    background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align: center;
+}
+/*This is the upper body of the
+social events webpage.*/
+
+.hackathon1{
+    display: flex;
+    color: darkslategrey;
+    float: left;
+    font-size: larger;
+    line-break: auto;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 2px;
+}
+/*This div basically contains the 
+information about the one hackathon
+that is available */
+
+.socialfooter{
+    background: whitesmoke;
+    bottom: 0%;
+    position: fixed;
+}
+
+/*Here is the end of the styling
+for the social events webpage.
+We will be moving on to the gaming 
+group webpage now.*/
+
+/*From here onward the code belongs 
+to the gaming webpage.*/
+
+.mainbodygaming{
+background-color: darkgrey;
+color: cyan;
+font-size: 22px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mainparagraphgaming{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkgrey;
+    display: flex;
+    text-align: justify;
+    text-align: center;
+    color: black;
+    outline-color: aliceblue;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 28%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.followupgaming{
+    background-color: darkgrey;
+    color: black;
+    display: block;
+    padding-top: 4%;
+    font: size 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+.gamingtournament{
+    background-color: darkgrey;
+    color: lightgreen;
+    padding-top: 3%;
+    font-size: 25px;
+    padding-right: 2px;
+    margin: auto;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.oops{
+    font-size: 18px;
+    display: flex;
+    color: lightgreen;
+    background-color: darkgrey;
+    float: right;
+    margin: auto;
+    align-items: center;
+    padding-top: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footergaming{
+    outline-style: solid;
+    outline-color: darkcyan;
+    color: black;
+    background-color: darkgrey;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

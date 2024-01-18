@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="content">
+    <form action="">
+        <div class="heading">
+        <h1>Work with Us </h1>
+        <H4>Please complete the form below to apply for a position with us.</H4>
+        <hr>
+    </div>
+    <hr>
+        <div class="class">
+        <label for="FULL NAME">Full Name:</label>
+        <p>
+        <input type="name" name="name" requied placeholder="first name" required>     <input type="name" name="name" requied placeholder="Mid-name " required>          <input type="name" name="name" requied placeholder="Last name" required>
+    </p>
+    <label for="BIRTH DATE">Birthdate:</label>
+    <P><input type="date" name="date" id="date" placeholder="DOB" required></P>
+    <label for="ADRSS"> Current Address :</label>
+    <p><input type="Adress" name="Adress" placeholder="Address 1" required></p>
+    <p><input type="Adress" name="Adress" placeholder="Address 2" required></p>
+    <p><input type="city" name="city" placeholder="CITY" required>            <input type="city" name="city" placeholder="STATE" required></p>
+    <p><input type="number" name="NAME" placeholder="POSTAL/ZIP CODE"></p>
+    <label for="email">E-mail Address:</label>
+    <p><input type="email" name="email" id="email" placeholder="ENTER EMAIL ADDRESS" width="260px" required></p>
+    <label for="Phone number" required>Phone Number</label>
+    <p><input type="number"name="number" placeholder="ENTER PHONE NUMBER"></p>
+    <label for="ID">LinkedIn ID:</label>
+    <p><input type="id" name="id"></p>
+
+    <hr>
+    <label for="position"> POSITION APPLIED</label>
+    <p><select name="please" id="please">\
+        <option value="work">Please Select </option>
+        <option value="work1">HR Manager </option>
+        <option value="work2">Social Media Manager</option>
+        <option value="work3">Intern</option>
+        <option value="any">Any Position</option>
+    </select></p>
+
+    <label for="start">Available Starting Date :</label>
+    <p><input type="date" name="start" id="start"></p>
+
+    <label for="cover">CV</label>
+    <p><textarea name="cover" id="cover" cols="30" rows="10"></textarea></p>
+    <p><input type="submit" value="SUBMIT"></p>
+</div>
+</div>
+    </form>
+</body>
+</html>

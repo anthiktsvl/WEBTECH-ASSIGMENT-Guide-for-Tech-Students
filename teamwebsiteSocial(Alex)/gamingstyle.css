@@ -1,0 +1,33 @@
+/* Alexandra Papafragkou */
+#description,#title{text-align:center;
+                    font-style: Georgia, 'Times New Roman', Times, serif;;
+                     font-size:25px;}
+
+#survey-form{ 
+              text-align:center
+        }
+
+            
+
+#bg{font-size:30px;}
+
+#title{font-style: italic;}
+
+#name{width:50%}
+
+#email{ width:50%;}
+
+#number{width:120%}
+
+#main{background:black;
+      color:white;
+       font-family:monospace;}
+
+#console{width:50%}
+
+
+#submit{width:70%;
+        height:40%;
+        color:white;
+        background:black}
+#submit:hover{background-color: cyan;}
